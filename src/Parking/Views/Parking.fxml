@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="canvas" prefHeight="632.0" prefWidth="881.0" style="-fx-background-color: BLACK;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Parking.Views.ParkingController">
+   <children>
+      <ImageView fitHeight="196.0" fitWidth="278.0" layoutX="229.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@../Resources/Parking.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="282.0" fitWidth="105.0" layoutX="98.0" layoutY="218.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@../Resources/ParkingMini.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="282.0" fitWidth="105.0" layoutX="619.0" layoutY="305.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@../Resources/ParkingMini.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="282.0" fitWidth="105.0" layoutX="619.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true" rotate="270.0">
+         <image>
+            <Image url="@../Resources/ParkingMini.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="5.0" layoutX="99.0" layoutY="562.0" stroke="BLACK" strokeType="INSIDE" width="782.0" />
+      <HBox layoutX="26.0" layoutY="596.0" prefHeight="0.0" prefWidth="230.0" spacing="20.0">
+         <children>
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="WHITE" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="YELLOW" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="WHITE" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="YELLOW" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="WHITE" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="YELLOW" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="WHITE" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="YELLOW" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="WHITE" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="YELLOW" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="WHITE" strokeWidth="5.0" />
+         </children>
+      </HBox>
+      <HBox layoutX="26.0" layoutY="181.0" prefHeight="0.0" prefWidth="230.0" spacing="20.0">
+         <children>
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="WHITE" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="YELLOW" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="WHITE" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="YELLOW" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="WHITE" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="YELLOW" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="WHITE" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="YELLOW" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="WHITE" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="YELLOW" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="WHITE" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="YELLOW" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="WHITE" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="YELLOW" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="WHITE" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="YELLOW" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="WHITE" strokeWidth="5.0" />
+         </children>
+      </HBox>
+      <VBox layoutX="40.0" layoutY="239.0" prefHeight="230.0" prefWidth="6.0" spacing="20.0">
+         <children>
+            <Line endY="250.0" fill="WHITE" startY="225.0" stroke="WHITE" strokeWidth="5.0" />
+            <Line endY="250.0" fill="WHITE" startY="225.0" stroke="YELLOW" strokeWidth="5.0" />
+            <Line endY="250.0" fill="WHITE" startY="225.0" stroke="WHITE" strokeWidth="5.0" />
+            <Line endY="250.0" fill="WHITE" startY="225.0" stroke="YELLOW" strokeWidth="5.0" />
+            <Line endY="250.0" fill="WHITE" startY="225.0" stroke="WHITE" strokeWidth="5.0" />
+         </children>
+      </VBox>
+      <Button layoutX="515.0" layoutY="57.0" mnemonicParsing="false" onAction="#startSimulation" prefHeight="39.0" prefWidth="124.0" style="-fx-background-color: LIGHTBLUE;" text="Iniciar" textFill="#321212">
+         <font>
+            <Font name="Bell MT Bold" size="20.0" />
+         </font></Button>
+      <Label layoutX="3.0" layoutY="561.0" text="ENTRADA" textFill="WHITE">
+         <font>
+            <Font name="Bell MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="531.0" rotate="180.0" text="SALIDA" textFill="WHITE">
+         <font>
+            <Font name="Bell MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="iVStatus" fitHeight="47.0" fitWidth="95.0" layoutX="12.0" layoutY="539.0" pickOnBounds="true" preserveRatio="true" rotate="315.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="58.0" layoutX="78.0" layoutY="57.0" stroke="BLACK" strokeType="INSIDE" width="144.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#d64040" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill></Rectangle>
+      <Label layoutX="85.0" layoutY="57.0" text="Vehiculos">
+         <font>
+            <Font name="Bell MT Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbCant" alignment="CENTER" layoutX="79.0" layoutY="88.0" prefHeight="30.0" prefWidth="144.0" text="100" textAlignment="CENTER">
+         <font>
+            <Font name="Bell MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="58.0" layoutX="34.0" layoutY="117.0" stroke="BLACK" strokeType="INSIDE" width="116.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#fff261" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill></Rectangle>
+      <Label alignment="CENTER" layoutX="43.0" layoutY="117.0" prefHeight="36.0" prefWidth="95.0" text="Entran">
+         <font>
+            <Font name="Bell MT Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbCantIn" alignment="CENTER" layoutX="39.0" layoutY="147.0" prefHeight="30.0" prefWidth="105.0" text="0">
+         <font>
+            <Font name="Bell MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="58.0" layoutX="157.0" layoutY="117.0" stroke="BLACK" strokeType="INSIDE" width="124.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#852a6b" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill></Rectangle>
+      <Label alignment="CENTER" layoutX="164.0" layoutY="117.0" prefHeight="36.0" prefWidth="116.0" text="Salen" textAlignment="CENTER">
+         <font>
+            <Font name="Bell MT Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbCantOut" alignment="CENTER" layoutX="158.0" layoutY="147.0" prefHeight="30.0" prefWidth="124.0" text="0">
+         <font>
+            <Font name="Bell MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="iVNext" fitHeight="47.0" fitWidth="95.0" layoutX="98.0" layoutY="578.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="326.0" layoutY="99.0" text="ESTACIONAMIENTO" textFill="WHITE">
+         <font>
+            <Font name="Bell MT Bold" size="50.0" />
+         </font>
+      </Label>
+      <HBox layoutX="34.0" layoutY="529.0" prefHeight="0.0" prefWidth="230.0" spacing="20.0">
+         <children>
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="WHITE" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="YELLOW" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="WHITE" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="YELLOW" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="WHITE" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="YELLOW" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="WHITE" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="YELLOW" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="WHITE" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="YELLOW" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="WHITE" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="YELLOW" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="WHITE" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="YELLOW" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="WHITE" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="YELLOW" strokeWidth="5.0" />
+            <Line endX="250.0" fill="WHITE" startX="225.0" stroke="WHITE" strokeWidth="5.0" />
+         </children>
+      </HBox>
+      <VBox layoutX="239.0" layoutY="248.0" prefHeight="230.0" prefWidth="6.0" spacing="20.0">
+         <children>
+            <Line endY="250.0" fill="WHITE" startY="225.0" stroke="WHITE" strokeWidth="5.0" />
+            <Line endY="250.0" fill="WHITE" startY="225.0" stroke="YELLOW" strokeWidth="5.0" />
+            <Line endY="250.0" fill="WHITE" startY="225.0" stroke="WHITE" strokeWidth="5.0" />
+            <Line endY="250.0" fill="WHITE" startY="225.0" stroke="YELLOW" strokeWidth="5.0" />
+            <Line endY="250.0" fill="WHITE" startY="225.0" stroke="WHITE" strokeWidth="5.0" />
+         </children>
+      </VBox>
+      <VBox layoutX="487.0" layoutY="248.0" prefHeight="230.0" prefWidth="6.0" spacing="20.0">
+         <children>
+            <Line endY="250.0" fill="WHITE" startY="225.0" stroke="WHITE" strokeWidth="5.0" />
+            <Line endY="250.0" fill="WHITE" startY="225.0" stroke="YELLOW" strokeWidth="5.0" />
+            <Line endY="250.0" fill="WHITE" startY="225.0" stroke="WHITE" strokeWidth="5.0" />
+            <Line endY="250.0" fill="WHITE" startY="225.0" stroke="YELLOW" strokeWidth="5.0" />
+            <Line endY="250.0" fill="WHITE" startY="225.0" stroke="WHITE" strokeWidth="5.0" />
+         </children>
+      </VBox>
+      <VBox layoutX="669.0" layoutY="242.0" prefHeight="230.0" prefWidth="6.0" rotate="90.0" spacing="20.0">
+         <children>
+            <Line endY="250.0" fill="WHITE" startY="225.0" stroke="WHITE" strokeWidth="5.0" />
+            <Line endY="250.0" fill="WHITE" startY="225.0" stroke="YELLOW" strokeWidth="5.0" />
+            <Line endY="250.0" fill="WHITE" startY="225.0" stroke="WHITE" strokeWidth="5.0" />
+            <Line endY="250.0" fill="WHITE" startY="225.0" stroke="YELLOW" strokeWidth="5.0" />
+            <Line endY="250.0" fill="WHITE" startY="225.0" stroke="WHITE" strokeWidth="5.0" />
+         </children>
+      </VBox>
+      <VBox layoutX="853.0" layoutY="248.0" prefHeight="230.0" prefWidth="6.0" spacing="20.0">
+         <children>
+            <Line endY="250.0" fill="WHITE" startY="225.0" stroke="WHITE" strokeWidth="5.0" />
+            <Line endY="250.0" fill="WHITE" startY="225.0" stroke="YELLOW" strokeWidth="5.0" />
+            <Line endY="250.0" fill="WHITE" startY="225.0" stroke="WHITE" strokeWidth="5.0" />
+            <Line endY="250.0" fill="WHITE" startY="225.0" stroke="YELLOW" strokeWidth="5.0" />
+            <Line endY="250.0" fill="WHITE" startY="225.0" stroke="WHITE" strokeWidth="5.0" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
